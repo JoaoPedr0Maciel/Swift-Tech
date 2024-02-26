@@ -1,9 +1,9 @@
 const InfoClient = () => {
   return (
     <div className="flex justify-between items-center gap-12 mt-6 w-full h-[5rem]">
-      <div className="flex gap-12 h-[5rem]">
+      <div className="grid grid-cols-3 gap-8 h-[5rem] text-sm">
         <div>
-          <p className="text-white font-bold text-3xl">
+          <p className="text-white font-bold text-2xl">
             300<span className="text-[#2387c0] font-extrabold">+</span>
           </p>
           <p className="text-[#c4c4c4] font-medium ">
@@ -11,7 +11,7 @@ const InfoClient = () => {
           </p>
         </div>
         <div>
-          <p className="text-white font-bold text-3xl">
+          <p className="text-white font-bold text-2xl">
             900<span className="text-[#2387c0] font-extrabold">+</span>
           </p>
           <p className="text-[#c4c4c4] font-medium ">
@@ -19,7 +19,7 @@ const InfoClient = () => {
           </p>
         </div>
         <div>
-          <p className="text-white font-bold text-3xl">
+          <p className="text-white font-bold text-2xl">
             20<span className="text-[#2387c0] font-extrabold">+</span>
           </p>
           <p className="text-[#c4c4c4] font-medium ">
@@ -28,7 +28,7 @@ const InfoClient = () => {
         </div>
       </div>
 
-      <div className=" bg-gradient-to-r from-[#60BBEE]  to-[#013756] w-[500px] h-[120px] flex gap-5 justify-start pl-10 items-center  ">
+      <div className=" max-lg:hidden bg-gradient-to-r from-[#60BBEE]  to-[#013756] w-[500px] h-[120px] flex gap-5 justify-start pl-10 items-center  ">
         <div className="text-white font-bold">
           <p className="text-lg">
             <span className="text-2xl">25</span>{" "}

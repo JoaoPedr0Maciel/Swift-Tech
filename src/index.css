@@ -4,6 +4,8 @@
 
 body {
   background: linear-gradient(90deg, #434343, #282828, #222222);
+  width: 100%;
+  height: 100vh;
 }
 
 * {
