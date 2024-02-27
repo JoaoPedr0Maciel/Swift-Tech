@@ -6,15 +6,16 @@ import Profissional from "../Profissional";
 
 const Difference = () => {
   return (
-    <div className="min-h-screen w-full bg-white px-14 py-12">
+    <div className="min-h-screen w-full bg-white px-4 py-12">
       <div className="flex justify-between py-6 gap-5 max-sm:flex-wrap max-sm:justify-center  max-md:flex-wrap max-md:justify-center max-md:text-center max-lg:flex max-lg:items-center max-lg:flex-col max-lg:justify-center max-lg:text-center ">
         <h1 className="text-5xl max-lg:text-3xl font-semibold text-[#252627] max-sm:text-center">
           What Make Us <br /> Different?
         </h1>
         <p className="text-[#919191] text-lg sm:max-w-[500px]  max-lg:text-sm max-md:gap-16 max-sm:text-center ">
-          Check out our best service you can possibly orders in building <br />{" "}
-          your company and don't forget to ask via our email or our
-          <br />
+          Check out our best service you can possibly orders in building{" "}
+          <br className="hidden" /> your company and don't forget to ask via our
+          email or our
+          <br className="hidden" />
           customer service if you are interested in using our services
         </p>
       </div>
