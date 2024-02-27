@@ -1,4 +1,5 @@
 import Companys from "../../components/Companys";
+import Difference from "../../components/Difference";
 import Header from "../../components/Header";
 import InfoClient from "../../components/InfoClient";
 import OurServices from "../../components/OurServices";
@@ -35,6 +36,7 @@ export const Home = () => {
       </div>
       <Companys />
       <OurServices />
+      <Difference />
     </div>
   );
 };
