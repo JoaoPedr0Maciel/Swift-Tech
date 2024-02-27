@@ -1,5 +1,3 @@
-import { BsBagCheckFill } from "react-icons/bs";
-
 type DiferentProps = {
   icon: React.ReactNode;
   title: string;
