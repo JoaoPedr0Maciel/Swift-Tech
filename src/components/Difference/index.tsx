@@ -6,7 +6,7 @@ import Profissional from "../Profissional";
 
 const Difference = () => {
   return (
-    <div className="min-h-screen w-full bg-white px-4 py-12">
+    <div className="min-h-screen w-full bg-white px-14 py-12">
       <div className="flex justify-between py-6 gap-5 max-sm:flex-wrap max-sm:justify-center  max-md:flex-wrap max-md:justify-center max-md:text-center max-lg:flex max-lg:items-center max-lg:flex-col max-lg:justify-center max-lg:text-center ">
         <h1 className="text-5xl max-lg:text-3xl font-semibold text-[#252627] max-sm:text-center">
           What Make Us <br /> Different?
@@ -31,7 +31,7 @@ const Difference = () => {
         />
         <Diferent
           icon={<MdOutlineSell className="text-white text-xl" />}
-          title="competitive price"
+          title="Competitive Price"
           description="The prices we offer you are
           very competitive without
           reducing the quality of the

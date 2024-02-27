@@ -2,7 +2,9 @@ import Companys from "../../components/Companys";
 import Difference from "../../components/Difference";
 import Header from "../../components/Header";
 import InfoClient from "../../components/InfoClient";
+import News from "../../components/News";
 import OurServices from "../../components/OurServices";
+import OurStory from "../../components/OurStory";
 
 export const Home = () => {
   return (
@@ -37,6 +39,8 @@ export const Home = () => {
       <Companys />
       <OurServices />
       <Difference />
+      <OurStory />
+      <News />
     </div>
   );
 };
