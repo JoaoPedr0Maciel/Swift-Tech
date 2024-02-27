@@ -1,8 +1,10 @@
 import Companys from "../../components/Companys";
 import Difference from "../../components/Difference";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import InfoClient from "../../components/InfoClient";
 import News from "../../components/News";
+import OurCollection from "../../components/OurCollection";
 import OurServices from "../../components/OurServices";
 import OurStory from "../../components/OurStory";
 
@@ -17,7 +19,7 @@ export const Home = () => {
               <h1 className="text-7xl max-sm:text-3xl max-lg:text-5xl font-medium text-white">
                 We provide <br />
                 Architectural desing <br />
-                and Construction
+                and Construction<span className="text-[#60BBEE]">.</span>
               </h1>
               <p className="text-[#c4c4c4] mt-6 font-medium max-sm:text-sm text-lg">
                 More than 100 building and housing projects that we have built.{" "}
@@ -41,6 +43,8 @@ export const Home = () => {
       <Difference />
       <OurStory />
       <News />
+      <OurCollection />
+      <Footer />
     </div>
   );
 };

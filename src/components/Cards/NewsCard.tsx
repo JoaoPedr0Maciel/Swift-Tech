@@ -14,7 +14,7 @@ const NewsCard = ({
 }: NewCardProps) => {
   return (
     <div className="mt-5 w-[250px]  gap-10">
-      <img src={image} alt="" className="lg:w-[300px]" />
+      <img src={image} alt="" className="lg:w-[400px]" />
       <div className="flex items-center justify-center gap-5 ">
         <div className="flex flex-col justify-center items-center ">
           <p className="font-bold text-lg">{day}</p>
