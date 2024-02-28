@@ -4,7 +4,10 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Profissional = () => {
   return (
-    <div className="px-4 py-12 min-h-full grid gap-16 lg:grid-cols-2 lg:items-center lg:gap-28">
+    <div
+      id="team"
+      className="px-4 py-12 min-h-full grid gap-16 lg:grid-cols-2 lg:items-center lg:gap-28"
+    >
       <div className="relative max-w-max mx-auto">
         <img src={edificio} className="w-[380px]" alt="edificio" />
         <div className="bg-gradient-to-b from-[#474747] to-[#222222] px-5 py-6 max-w-56 absolute bottom-0 left-0 right-0 mx-auto translate-y-8 lg:top-0 lg:bottom-auto lg:left-auto lg:translate-y-[35%] text-center lg:translate-x-24 lg:mx-0">

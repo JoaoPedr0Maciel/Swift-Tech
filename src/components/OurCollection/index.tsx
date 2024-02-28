@@ -5,7 +5,7 @@ import vintage from "../../assets/vintage.png";
 
 const OurCollection = () => {
   return (
-    <div className="min-h-full px-14 py-12 bg-[#f8f8f8]">
+    <div id="portfolio" className="min-h-full px-14 py-12 bg-[#f8f8f8]">
       <h1 className="text-5xl max-lg:text-3xl font-semibold text-[#252627] text-center lg:text-left">
         Our collection. <br />
         Best projects

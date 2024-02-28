@@ -2,7 +2,10 @@ import predio from "../../assets/Predio.png";
 
 const OurStory = () => {
   return (
-    <div className="min-h-full py-8 bg-[#f8f8f8] grid justify-items-center justify-center px-14  lg:grid-cols-2 lg:items-center">
+    <div
+      id="about"
+      className="min-h-full py-8 bg-[#f8f8f8] grid justify-items-center justify-center px-14  lg:grid-cols-2 lg:items-center"
+    >
       <div className=" flex flex-col justify-center items-center lg:items-start">
         <h1 className="text-5xl max-lg:text-3xl font-semibold text-[#252627] text-center lg:text-left">
           Our Story, Who we are

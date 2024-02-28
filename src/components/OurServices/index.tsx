@@ -7,7 +7,7 @@ import redential from "../../images/redential.svg";
 
 const OurServices = () => {
   return (
-    <div className="bg-[#f8f8f8] w-full min-h-screen px-4 py-12">
+    <div id="services" className="bg-[#f8f8f8] w-full min-h-screen px-4 py-12">
       <div className="flex justify-between max-lg:text-center max-lg:flex-col py-6 space-y-9 lg:space-y-0 lg:py-14 mx-14 items-center ">
         <h1 className="text-5xl max-lg:text-3xl font-semibold text-[#252627]">
           Our Excellent <br /> Services
