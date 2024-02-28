@@ -5,7 +5,7 @@ import { useState } from "react";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="w-full h-24 flex   justify-end items-center">
+    <div className="w-full h-24 flex justify-end items-center">
       <div className="ml-14 w-full">
         <IoIosMenu
           onClick={() => setOpen(true)}
